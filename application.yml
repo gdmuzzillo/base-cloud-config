@@ -1,5 +1,4 @@
-
---
+---
 apps:
   port:
     oauth: 18080
