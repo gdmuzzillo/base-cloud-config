@@ -11,7 +11,7 @@ apps:
 
   oauth:
     context-path: /oauth
-    uri: http://localhost:${aleph.port.oauth}${aleph.oauth.context-path}
+    uri: http://localhost:${apps.port.oauth}${apps.oauth.context-path}
     redis: 
       enabled: false
       host: localhost
