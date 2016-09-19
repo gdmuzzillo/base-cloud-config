@@ -10,7 +10,7 @@ apps:
     dbname: oauthdb 
 
   oauth:
-    context-path: /oauth
+    context-path: /app-oauth
     uri: http://localhost:${apps.port.oauth}${apps.oauth.context-path}
     redis: 
       enabled: false
